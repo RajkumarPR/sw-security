@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-security
+
+server:
+  port: 8080
+
+logging:
+  level:
+    org:
+      springframework:
+        security: TRACE
