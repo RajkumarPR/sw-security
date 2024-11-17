@@ -15,4 +15,9 @@ public class HomeController {
         return ResponseEntity.ok("home");
     }
 
+
+    @GetMapping(value = "/secured")
+    public ResponseEntity<String> secured() {
+        return ResponseEntity.ok("secured");
+    }
 }
